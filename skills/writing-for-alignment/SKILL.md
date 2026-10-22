@@ -26,13 +26,13 @@ If no shape is named, pick the nearest for the job and readers. Open your first 
     - the two or three hardest questions the argument will face;
     - the questions only the author can answer.
 
-    Ask the author to correct it or restate it in their own words. An outline of sections is not a playback. Drafting waits for their reply. A request that states the argument as settled counts as that reply, unless the sources contradict it.
-4. **■ Plan the narrative** by the shape's reader questions, so it builds to its point. Propose one to three visuals, each named for the point it lands and sketched as a rough text mock-up, or say why none is needed. A table of facts is not a visual. When the request asks for a plan or states the argument, send the plan, visuals included, with the playback.
-5. **Draft.** Method goes in an appendix at the end (`references/appendix.md`).
-6. **Independent check.** A fresh agent, given the draft and the evidence base, checks every significant number, quote and decision status against it, reads as a newcomer and says where it got lost, and runs the writing rules and shape failure checks. Fix what it finds. Claims from the author stay, recorded as theirs.
+    Ask the author to correct it or restate it in their own words. An outline of sections is not a playback. Drafting waits for their reply. Exception: if the request gives the position and recommendation as already agreed, write the playback out before drafting, in the same reply, unless the sources contradict it or an author-only question remains.
+4. **■ Plan the narrative** by the shape's reader questions, building to its point. Propose one to three visuals, each named for the point it lands and sketched as a rough text mock-up, or say why none. A table of facts is not a visual. When the request asks for the plan, or step 3's exception applies, send the plan, visuals included, with the playback.
+5. **Draft.** Method goes in the appendix.
+6. **Independent check.** Spawn a subagent given only the draft and the evidence base. It checks every significant number, quote and decision status against it, reads as a newcomer and says where it got lost, and runs the writing rules and shape failure checks. If you can't spawn one, say so and run the check as a separate pass. Fix what it finds; claims from the author stay.
 7. **Resolve, don't report.** Fix a weakness in a proposal; don't ship it as a caveat.
-8. **■ Rehearsal.** Before the document goes to its readers, list the hardest questions a sceptical reader would ask of the argument itself: why this approach and not another, what it assumes, what would show it wrong, who bears its cost. Fact-checking is step 6's job. Then drill the author on them one at a time and wait. Never supply the answers. Each answer improves the text in place: a reason written in, a weak claim tightened or cut, an objection met where it arises. What the author can't answer goes back into the evidence base as a gap. The document never gains a hard-questions or FAQ section. When the author brings a finished draft, run steps 6 to 8 in one reply: your fixes, then the hard questions, even when the check left questions.
-9. **Publish.** Always Markdown in the repo. Also a page if the host can publish one, following its guidance.
+8. **■ Rehearsal.** Before the document goes out, list the hardest questions a sceptical reader would ask of the argument itself. Fact-checking is step 6's job. Then drill the author on them one at a time and wait. Never supply the answers. Each answer improves the text in place: a reason added, a weak claim cut, an objection met. What the author can't answer goes back into the evidence base as a gap. The document never gains a hard-questions or FAQ section. When the author brings a finished draft, run steps 6 to 8 in one reply: apply the check's fixes, propose any cuts, then list the hard questions and ask the first. The check's own questions don't replace them.
+9. **Publish.** Always Markdown in the repo. Also a page if the host can publish one.
 10. **Iterate** on line-by-line feedback. Propose cuts in chat first.
 
 **Thinking mode.** When the author wants to think rather than publish, stop after step 3: your position and why, the facts sorted by class (decided, agreed direction, inferred, open), and what is missing. Write no document; the evidence base is allowed.
@@ -57,5 +57,5 @@ Check every draft against these; full list: `references/writing-rules.md`.
 - Name things, never IDs. No codes, file names or document versions anywhere in the document, a sources line included; describe an item by what it says and who decided it.
 - Always a position. Options only with a recommendation and its reason.
 - Visuals only where they land a point: two or three at most, each tied to its point (step 4).
-- Method goes in the appendix. The main text gives the figure and a link; counting rules, sources and how it was reached sit only in an appendix at the end. Don't restate a counting rule in the main text, even in short.
+- Method goes in the appendix. The main text gives the figure and a link; counting rules, sources and how it was reached sit in the appendix (`references/appendix.md`). Don't restate a counting rule in the main text, even in short.
 - Cut AI tells: "not X but Y", staged openers, stacked triads, closing summaries, inflated claims.

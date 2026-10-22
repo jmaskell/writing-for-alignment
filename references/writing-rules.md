@@ -18,10 +18,10 @@ The full list behind the check in the skill body. Each rule serves a reader who 
 - **Each number has one definition,** used consistently. Give the typical per-person or per-item figure as well as the total: "38 hours of overtime a month, about two hours per driver".
 - Prose for reasoning; bullets for lists the reader will scan; tables only where they help the reader compare.
 - **Cut AI tells:**
-    - "not X but Y" and "isn't just X" contrasts;
+    - "not X but Y" contrasts, where a claim is set against one nobody made;
     - staged openers ("Here's the thing:", "The short answer?");
     - stacked triads (three adjectives, three parallel clauses) used for rhythm, not meaning;
-    - closing summaries that repeat the body ("In conclusion …");
+    - a summary paragraph at the end that repeats the body;
     - inflated claims ("transformative", "game-changing").
 
 ## Honest and fair
