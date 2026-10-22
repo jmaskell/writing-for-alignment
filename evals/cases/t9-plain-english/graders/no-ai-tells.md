@@ -6,4 +6,4 @@ target:
 match: count:0
 flags: i
 ---
-(?:It's important to note|In conclusion|delve|isn't just|not only [^.]{0,60} but)
+(?:It[’']s important to note|In conclusion|delve|isn[’']t just|not only [^.]{0,60} but)

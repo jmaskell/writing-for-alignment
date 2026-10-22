@@ -31,7 +31,7 @@ Q12 is shown only when the volunteer gave both a mobile number (Q2) and an email
 
 ## Reminders
 
-Reminders go out by email only (D4). A reminder is sent 48 hours and 4 hours before a shift. Volunteers who have not confirmed 24 hours ahead show on the coordinator's follow-up list. The earlier SMS plan (D2) is superseded.
+Reminders go out by email only. Priya Shah decided this on 2 September (D4). A reminder is sent 48 hours and 4 hours before a shift. Volunteers who have not confirmed 24 hours ahead show on the coordinator's follow-up list. The earlier SMS plan (D2) is superseded.
 
 ## Swapping shifts
 
