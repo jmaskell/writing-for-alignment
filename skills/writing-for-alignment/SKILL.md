@@ -1,6 +1,6 @@
 ---
 name: writing-for-alignment
-description: Use when writing a document that shares an author's thinking with colleagues and the request names no document type ("write this up for the team", "write up what we learned from the supplier switch"), when an author's draft is about to go to its readers, or when an author wants to work out their position on a question before anything is written. Also loaded first by each shape skill.
+description: Use when asked to write anything for other people to read about a problem, a piece of work or what to do next, and the request names no document type ("write this up for the team", "put something together for the steering group on where the pilot leaves us"), when an author's draft is about to go to its readers, or when an author wants to work out or agree their position before anything is written. Also loaded first by each shape skill.
 ---
 
 # Writing for alignment
