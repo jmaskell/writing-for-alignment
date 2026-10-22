@@ -5,7 +5,7 @@ description: Use when the request names a briefing, a state of the union, a "whe
 
 # Writing briefings
 
-Load the `writing-for-alignment` skill first, with the Skill tool, and follow its process: its gates, playback, evidence base, writing rules, check and rehearsal all apply. This skill adds the briefing's outline and its failure checks. `templates/briefing.md` sits two levels up.
+Load the `writing-for-alignment` skill first with the Skill tool, unless it is already loaded, and follow its process: its gates, playback, evidence base, writing rules, check and rehearsal all apply. This skill adds the briefing's outline and its failure checks. At step 4, use `templates/briefing.md` (two levels up) as the outline.
 
 ## When it fits
 

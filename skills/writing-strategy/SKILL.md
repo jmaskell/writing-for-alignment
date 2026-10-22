@@ -15,7 +15,7 @@ Readers must agree how to meet a challenge over the coming period. If they must 
 
 ## No challenge, no strategy
 
-The diagnosis comes from the author. When the material holds goals, targets or plans but never says what challenge they answer, say so at the playback and ask the author what the challenge is. Never infer one from the goals or write the diagnosis yourself; until the author names it, the diagnosis is open and drafting waits.
+The diagnosis comes from the author or the sources, never from you. When the material holds goals, targets or plans but never says what challenge they answer, say so at the playback and ask the author what the challenge is. Never infer one from the goals or write the diagnosis yourself; until the author names it, the diagnosis is open and drafting waits.
 
 ## The kernel, in order
 
@@ -32,7 +32,7 @@ On the coherent actions and the first moves, before the appendix. No closing sum
 
 ## Strategy failure checks
 
-Rumelt's signs of bad strategy. Add them to the independent check (step 6), and fix each one found:
+Rumelt's signs of bad strategy, plus two kernel checks. Add them to the independent check (step 6), and fix each one found:
 
 - Fluff: grand words that sound like strategy and say nothing ("world-class", "best-in-class").
 - Goals presented as strategy: a target or an ambition where the approach should be.
