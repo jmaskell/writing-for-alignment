@@ -12,6 +12,28 @@ A Claude Code plugin for writing documents that share your thinking with colleag
 
 The core skill checks every draft against its writing rules: claims classified in words, things named and never cited by ID, always a position, two or three visuals at most, method in an appendix at the end, no AI tells. A fresh agent checks the draft against the evidence base. Before the document goes out, the rehearsal asks you the hardest questions a reader would ask, one at a time; your answers improve the text, and the skill never answers for you. Full rules: `references/writing-rules.md`; the appendix: `references/appendix.md`.
 
+## The two shapes in release 1
+
+- **Briefing** (`writing-briefings`): where a piece of work stands and what you propose next. Example: "Write a briefing for the leadership team on where the warehouse move stands and what we propose for the second site."
+- **Strategy** (`writing-strategy`): how the team will meet a challenge, as diagnosis, guiding policy and coherent actions. Example: "Draft our support team's strategy for next year from the notes in docs/support."
+
+Ask for a document without naming a type ("write this up for the team") and the core skill picks the shape at the playback.
+
+## Evidence base and gates
+
+The evidence base is one working file per topic that records every finding with its class (decided, agreed direction, inferred, superseded or open) and its source, and every document on that topic draws from it. Four steps are gates that wait for your reply: clarifying what changes the work, the playback of the argument before anything is drafted, the plan of the narrative and its visuals, and the rehearsal before the document goes out.
+
+## Install
+
+1. `claude plugin marketplace add <repo>`
+2. `claude plugin install writing-for-alignment`
+
+## Coming in release 2
+
+- Research synthesis
+- Decision memo
+- Explainer
+
 ## Checks
 
 Run these before you commit:
