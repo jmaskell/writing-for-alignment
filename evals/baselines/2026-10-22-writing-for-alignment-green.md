@@ -41,7 +41,7 @@ Notes on the table:
 
 - **t4:** every run that wrote the briefing passed sms-not-plan, in both arms and on both models: 5/5 with and 2/2 without on Sonnet, 3/3 each arm on Opus. The three Sonnet without misses wrote no `docs/briefing.md`, so the grader threw. No API refusals this time. It stays GUARD-unconfirmed: the unaided agent passes whenever it writes the file, and only four without-arm runs on Sonnet were judged, across RED and GREEN.
 - **t10 on Opus, 0.67:** two runs drafted, and both passed method-in-appendix. The third run stopped before drafting. It played the argument back and asked Sam one question: the proposed Saturday phone call isn't in Priya's recorded email-only decision. Step 3's exception allows that stop, since a source raises a question only the author can answer. The grader threw on the missing file.
-- **t1 on Opus, 0.93:** one run failed no-draft-shell. It wrote a git object to a temporary `.md` file in order to diff an old `docs/spec.md`, a workaround for the blocked `git log`. That is a false positive: no draft was written.
+- **t1 on Opus, 0.93 (at `0d4cd59`; 1.00 at 6d03190, see the pre-merge table):** one run failed no-draft-shell. It wrote a git object to a temporary `.md` file in order to diff an old `docs/spec.md`, a workaround for the blocked `git log`. That is a false positive: no draft was written.
 - **t6:** the without arm reached 0.80 on Sonnet this time (visuals 1/5). The with arm, at 1.00, beats it.
 - **t7:** GUARD since RED (0.92 / 0.92). The with arm misses one run (thinks 4/5); the without arm passes 5/5 on this batch.
 
@@ -59,9 +59,23 @@ Notes on the table:
 | t13 | final review wave | 3 | 1.00 | 0.20 | briefing and core fired 3/3; without ceiling 0.60 |
 | t11 | final review wave | 3 | 1.00 | 0.80 | strategy fired 3/3; without arm passes every behaviour grader (GUARD on behaviour) |
 
+## Pre-merge re-run at 6d03190
+
+Judge Sonnet, subscription, `--scaffold --allow-tools Bash Write Edit`, both arms. JSON in `evals/results/premerge/` (gitignored). The t1 without arm failed skill-fired and states-position in every run (0.60); the t8 without arm passed names-shape in 1 of 3 runs.
+
+| Case | Model, runs | With | Without | With-arm graders (pass counts) | Failing runs |
+|---|---|---|---|---|---|
+| t1-playback-gate | Sonnet, 5 | 1.00 | 0.60 | no-draft-edit 5/5, no-draft-shell 5/5, no-draft 5/5, skill-fired-writing-briefings 5/5, states-position 5/5 | none |
+| t6-visual-restraint | Sonnet, 5 | 1.00 | 0.75 | no-draft-edit 5/5, no-draft-shell 5/5, no-draft 5/5, visuals 5/5 | none |
+| t8-shape-choice | Opus, 3 | 1.00 | 0.17 | names-shape 3/3, skill-fired-writing-for-alignment 3/3 | none |
+| t1-playback-gate | Opus, 3 | 1.00 | 0.60 | no-draft-edit 3/3, no-draft-shell 3/3, no-draft 3/3, skill-fired-writing-briefings 3/3, states-position 3/3 | none |
+| t6-visual-restraint | Opus, 3 | 1.00 | 0.75 | no-draft-edit 3/3, no-draft-shell 3/3, no-draft 3/3, visuals 3/3 | none |
+
+Data-question stop: none observed. states-position passes in all 8 t1 with-arm runs (the playback was given) and visuals passes in all 8 t6 runs (the plan was given). The traces were not kept, so this is read from the grader verdicts, not from the replies. The earlier Opus t1 false positive (no-draft-shell, git object written to a temp file) did not recur.
+
 ## Not re-run after the last text change
 
-The final review wave changed the core body (shape pick, step 1 data question, small trims), the core and strategy descriptions, and the visual count in `references/writing-rules.md`. Only t8, t13 and t11 were re-run on it (Sonnet, judge Sonnet, table above). Not re-run on that text: t1, t1b, t2, t3, t4, t5, t6, t7, t9, t10, t12, and no Opus runs. Their scores in the main table come from `0d4cd59`.
+The final review wave changed the core body (shape pick, step 1 data question, small trims), the core and strategy descriptions, and the visual count in `references/writing-rules.md`. Re-run on it: t8, t13 and t11 (Sonnet, table above), then t1 and t6 (Sonnet) and t8, t1 and t6 (Opus) at 6d03190 (table above). Not re-run on that text: t1b, t2, t3, t4, t5, t7, t9, t10, t12 on Sonnet; t1b, t2, t3, t4, t5, t7, t9, t10, t11, t12, t13 on Opus. Their scores in the main table come from `0d4cd59`; the Opus column for t10 (0.67) is unchanged.
 
 ## Untested spec lines (kept)
 
