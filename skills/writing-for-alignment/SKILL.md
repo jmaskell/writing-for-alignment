@@ -1,24 +1,24 @@
 ---
 name: writing-for-alignment
-description: Use when writing a document that shares an author's thinking with colleagues and the request names no document type ("write this up for the team", "write up where the migration is"), or when an author wants to work out their position on a question before anything is written. Also loaded first by each shape skill.
+description: Use when writing a document that shares an author's thinking with colleagues and the request names no document type ("write this up for the team", "write up what we learned from the supplier switch"), when an author's draft is about to go to its readers, or when an author wants to work out their position on a question before anything is written. Also loaded first by each shape skill.
 ---
 
 # Writing for alignment
 
-You help an author share their thinking with colleagues: a story that builds to a position, facts kept apart from proposals, nothing they can't defend. The author owns the argument. `templates/` and `references/` sit two levels up; open them with Read.
+You help an author share their thinking with colleagues: a story that builds to a position, facts kept apart from proposals, nothing they can't defend. The author owns the argument. `templates/` and `references/` sit two levels up.
 
 ## Shape choice
 
-Shapes and their skills: briefing, where work stands and what we propose (`writing-briefings`); strategy kernel, the real challenge, an approach and actions that fit (`writing-strategy`); decision memo, one decision to make (`writing-decision-memos`); research synthesis, what research found and how sure (`synthesising-research`); explainer, how a system works and what it means for the reader (`writing-explainers`).
+Shapes and their skills: briefing (`writing-briefings`), strategy kernel (`writing-strategy`), decision memo (`writing-decision-memos`), research synthesis (`synthesising-research`), explainer (`writing-explainers`).
 
-When the request names no shape, pick the nearest for the job and the readers. Open your first reply with one line, "<shape>, because <why it fits these readers and this job>", and say the author can change it. What the document covers is not a reason. Load that shape's skill; if it is not installed, say so and order the document by the readers' questions.
+If no shape is named, pick the nearest for the job and readers. Open your first reply with one line, "<shape>, because <why it fits these readers and this job>", and say the author can change it. What the document covers is not a reason. Load that shape's skill; if it is not installed, say so and order the document by the readers' questions.
 
 ## Process
 
 ■ gates wait for the author's reply.
 
-1. **■ Clarify.** Ask only what changes the work, in one batch, each with your recommendation: readers, shape, length (default a 20-minute read; shorter for a memo), what data may appear, whether a page is wanted, finished document or thinking only.
-2. **Gather.** Build or extend the evidence base (below). For large material, split research agents by source area; each returns findings by class, with sources.
+1. **■ Clarify.** Ask only what changes the work, in one batch, each with your recommendation: readers, shape, length (default a 20-minute read), page or not, document or thinking only.
+2. **Gather.** Build or extend the evidence base (below). Split large material across research agents by source area, each returning findings by class.
 3. **■ Play back the argument.** Before any draft, reply with:
     - the position the document will take, in one or two sentences, and the main points that carry it;
     - each point's status: decided (by whom), agreed direction, your own reading, or open;
@@ -26,29 +26,36 @@ When the request names no shape, pick the nearest for the job and the readers. O
     - the two or three hardest questions the argument will face;
     - the questions only the author can answer.
 
-    Ask the author to correct it or restate it in their own words. An outline of sections is not a playback. Drafting waits for their reply, even when the request states the argument.
-4. **■ Plan the narrative** by the shape's reader questions, so it builds to its point. Sketch the two or three visuals that would make a point land, as rough text mock-ups.
-5. **Draft.**
-6. **Independent check.** A fresh agent checks numbers, quotes and decision status against the evidence base, reads as a newcomer, and runs the shape's failure checks.
-7. **Resolve, don't report.** Fix a fixable weakness in a proposal; don't ship it as a caveat.
-8. **■ Rehearsal.** Drill the author on the hardest questions a reader would ask of the draft.
-9. **Publish.** Always Markdown in the repo. If the host can publish pages, also a page, following its page guidance.
+    Ask the author to correct it or restate it in their own words. An outline of sections is not a playback. Drafting waits for their reply. A request that states the argument as settled counts as that reply, unless the sources contradict it.
+4. **■ Plan the narrative** by the shape's reader questions, so it builds to its point. Propose one to three visuals, each named for the point it lands and sketched as a rough text mock-up, or say why none is needed. A table of facts is not a visual. When the request asks for a plan or states the argument, send the plan, visuals included, with the playback.
+5. **Draft.** Method goes in an appendix at the end (`references/appendix.md`).
+6. **Independent check.** A fresh agent, given the draft and the evidence base, checks every significant number, quote and decision status against it, reads as a newcomer and says where it got lost, and runs the writing rules and shape failure checks. Fix what it finds. Claims from the author stay, recorded as theirs.
+7. **Resolve, don't report.** Fix a weakness in a proposal; don't ship it as a caveat.
+8. **■ Rehearsal.** Before the document goes to its readers, list the hardest questions a sceptical reader would ask of the argument itself: why this approach and not another, what it assumes, what would show it wrong, who bears its cost. Fact-checking is step 6's job. Then drill the author on them one at a time and wait. Never supply the answers. Each answer improves the text in place: a reason written in, a weak claim tightened or cut, an objection met where it arises. What the author can't answer goes back into the evidence base as a gap. The document never gains a hard-questions or FAQ section. When the author brings a finished draft, run steps 6 to 8 in one reply: your fixes, then the hard questions, even when the check left questions.
+9. **Publish.** Always Markdown in the repo. Also a page if the host can publish one, following its guidance.
 10. **Iterate** on line-by-line feedback. Propose cuts in chat first.
 
-**Thinking mode.** When the author wants to think rather than publish, stop after step 3: your position and why, the facts sorted into decided, inferred and open, and what is missing. Write no document; the evidence base is allowed.
+**Thinking mode.** When the author wants to think rather than publish, stop after step 3: your position and why, the facts sorted by class (decided, agreed direction, inferred, open), and what is missing. Write no document; the evidence base is allowed.
 
 ## Evidence base
 
-One file per topic, `docs/<topic>/evidence.md`, from `templates/evidence.md`, built before drafting and reused by later documents. Rules: `references/evidence-base.md`.
+One file per topic, `docs/<topic>/evidence.md`, from `templates/evidence.md`, built before drafting, reused by later documents. Rules: `references/evidence-base.md`.
 
 - Each finding: a plain claim, its class (decided, agreed direction, inferred, superseded, open), its source, one definition per number.
 - Documents are evidence, not authority. A recent edit is not a recent decision.
 - The evidence base may carry IDs and file names; documents drawn from it may not.
 
-**AI-originated positions.** Read the docs' version history (`git log -p`) for positions an AI wrote in that a person later removed or reversed. Record each as superseded, with who reversed it, and keep it out of the narrative. At the playback, ask the author which positions came from an AI. Read session transcripts only when the author points you to them.
+**AI-originated positions.** A position an AI wrote in that a person later removed or reversed (see `git log -p`) is superseded and stays out of the narrative. At the playback, ask the author which positions came from an AI; read session transcripts only when the author points you to them.
 
 **Transcripts.** Each claim keeps its speaker. An idea floated without commitment stays open until that speaker confirms it; your reading of it is inferred. Never tidy it into a decision or a recommendation.
 
 ## Writing rules
 
-- Show each claim's class in words, never as a tag: a decision with who made it, "we propose" for anything new, a reading with whose it is, an open point with what would settle it. Leave superseded positions out, or tell them as a change of mind.
+Check every draft against these; full list: `references/writing-rules.md`.
+
+- Show each claim's class in words, never as a tag: a decision with who made it, an agreed direction with what is still open, "we propose" for anything new, a reading with whose it is, an open point with what would settle it. Leave superseded positions out, or tell them as a change of mind.
+- Name things, never IDs. No codes, file names or document versions anywhere in the document, a sources line included; describe an item by what it says and who decided it.
+- Always a position. Options only with a recommendation and its reason.
+- Visuals only where they land a point: two or three at most, each tied to its point (step 4).
+- Method goes in the appendix. The main text gives the figure and a link; counting rules, sources and how it was reached sit only in an appendix at the end. Don't restate a counting rule in the main text, even in short.
+- Cut AI tells: "not X but Y", staged openers, stacked triads, closing summaries, inflated claims.
