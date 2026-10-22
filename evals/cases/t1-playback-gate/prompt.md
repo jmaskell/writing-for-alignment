@@ -1,0 +1,1 @@
+I'm Sam, product lead on the volunteer rota project at Northside Food Bank. The material is in the repo. I need a briefing on the project for the trustees and the volunteer leads. About a ten-minute read, no page, just Markdown. Come back to me before you write it up.

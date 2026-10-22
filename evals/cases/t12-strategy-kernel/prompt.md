@@ -1,0 +1,1 @@
+I'm Sam, product lead at Northside Food Bank; the material is in the repo. The board strategy for next year: the argument is approved. The diagnosis is that our volunteer base is shrinking and ageing, not the no-shows alone. Write it to docs/strategy.md.

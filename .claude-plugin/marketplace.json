@@ -1,0 +1,14 @@
+{
+  "name": "writing-for-alignment",
+  "description": "Writing skills for Claude Code: documents that build alignment.",
+  "owner": {
+    "name": "James Maskell"
+  },
+  "plugins": [
+    {
+      "name": "writing-for-alignment",
+      "source": "./",
+      "description": "Writing skills for building alignment"
+    }
+  ]
+}
