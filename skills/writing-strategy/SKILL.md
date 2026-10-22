@@ -1,11 +1,11 @@
 ---
 name: writing-strategy
-description: Use when the request names a strategy, a strategy document or strategy paper, for a team, a board or an organisation, or asks whether a strategy is good or bad. For a document that names no type, writing-for-alignment picks the shape first.
+description: Use when the request names a strategy, a strategy document or strategy paper, for a team, a board or an organisation. For a document that names no type, writing-for-alignment picks the shape first.
 ---
 
 # Writing strategy
 
-Load the `writing-for-alignment` skill first with the Skill tool, unless it is already loaded, and follow its process: its gates, playback, evidence base, writing rules, check and rehearsal all apply. This skill adds the strategy kernel and its failure checks. At step 4, use `templates/strategy.md` (two levels up) as the outline.
+Load the `writing-for-alignment` skill first with the Skill tool, unless it is already loaded, and follow its process: its gates, playback, evidence base, writing rules, check and rehearsal all apply. This skill adds the strategy kernel and its failure checks. At step 4, use `templates/strategy.md` (at the plugin root, two folders up) as the outline.
 
 The kernel is from Richard Rumelt, [*Good Strategy Bad Strategy*](https://profilebooks.com/work/good-strategy-bad-strategy/) (Profile Books, 2011).
 

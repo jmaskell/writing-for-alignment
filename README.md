@@ -6,18 +6,18 @@ A Claude Code plugin for writing documents that share your thinking with colleag
 
 | Skill | Use it for |
 |---|---|
-| `writing-for-alignment` | The core process for any document that shares your thinking: clarify, gather an evidence base, play the argument back before drafting, plan, draft, check, rehearse, publish. Picks a shape when you name none, and has a thinking mode that stops at the playback. |
+| `writing-for-alignment` | The core process for any document that shares your thinking: clarify, gather an evidence base, play the argument back before drafting, plan, draft, check, rehearse, publish. Picks one of the two shapes when you name none, and has a thinking mode that stops at the playback. |
 | `writing-briefings` | Briefings, state-of-the-union and "where we are" updates for stakeholders. Loads the core skill, then orders the document by the readers' questions (why it matters, what it is, what we learned, what we propose, what we are less sure of) and ends by asking readers what they agree and disagree with, then the next steps. Adds the briefing failure checks to the independent check. Outline: `templates/briefing.md`. |
 | `writing-strategy` | Strategies, using Richard Rumelt's kernel. Loads the core skill, then orders the document as diagnosis (what is really going on), guiding policy (our approach) and coherent actions, ending on the first moves. Asks the author for the challenge when the material holds only goals, and never invents one. Adds Rumelt's signs of bad strategy, plus two kernel checks, to the independent check. Outline: `templates/strategy.md`. |
 
-The core skill checks every draft against its writing rules: claims classified in words, things named and never cited by ID, always a position, two or three visuals at most, method in an appendix at the end, no AI tells. A fresh agent checks the draft against the evidence base. Before the document goes out, the rehearsal asks you the hardest questions a reader would ask, one at a time; your answers improve the text, and the skill never answers for you. Full rules: `references/writing-rules.md`; the appendix: `references/appendix.md`.
+The core skill checks every draft against its writing rules: claims classified in words, things named and never cited by ID, always a position, one to three visuals at most, method in an appendix at the end, no AI tells. A fresh agent checks the draft against the evidence base. Before the document goes out, the rehearsal asks you the hardest questions a reader would ask, one at a time; your answers improve the text, and the skill never answers for you. Full rules: `references/writing-rules.md`; the appendix: `references/appendix.md`.
 
 ## The two shapes in release 1
 
 - **Briefing** (`writing-briefings`): where a piece of work stands and what you propose next. Example: "Write a briefing for the leadership team on where the warehouse move stands and what we propose for the second site."
 - **Strategy** (`writing-strategy`): how the team will meet a challenge, as diagnosis, guiding policy and coherent actions. Example: "Draft our support team's strategy for next year from the notes in docs/support."
 
-Ask for a document without naming a type ("write this up for the team") and the core skill picks the shape at the playback.
+Ask for a document without naming a type ("write this up for the team"), or for a decision memo, research synthesis or explainer, and the core skill picks the shape that fits, in one line at the top of its first reply. When a release 2 shape would fit better, it says so and uses the nearer of these two.
 
 ## Evidence base and gates
 
@@ -25,8 +25,10 @@ The evidence base is one working file per topic that records every finding with 
 
 ## Install
 
-1. `claude plugin marketplace add <repo>`
-2. `claude plugin install writing-for-alignment`
+```bash
+claude plugin marketplace add jmaskell/writing-for-alignment
+claude plugin install writing-for-alignment@writing-for-alignment
+```
 
 ## Coming in release 2
 

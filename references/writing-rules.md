@@ -44,7 +44,7 @@ The full list behind the check in the skill body. Each rule serves a reader who 
 ## Visuals
 
 - **Only where a visual makes a point land:** a comparison the reader would otherwise hold in their head, a flow that prose turns into a list of steps, a before-and-after.
-- **Two or three at most** in a document. No diagram or worked example for every concept.
+- **One to three at most** in a document. No diagram or worked example for every concept.
 - **Each visual is tied to one named point** in the narrative: "The bar chart of late orders by depot carries the point that one depot drives most of the problem."
 - **Sketch each one for approval** at the planning step, as a rough text mock-up, before any is drawn:
 
