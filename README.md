@@ -6,6 +6,7 @@ A Claude Code plugin for writing documents that share your thinking with colleag
 
 | Skill | Use it for |
 |---|---|
+| `writing-for-alignment` | The core process for any document that shares your thinking: clarify, gather an evidence base, play the argument back before drafting, plan, draft, check, rehearse, publish. Picks a shape when you name none, and has a thinking mode that stops at the playback. |
 
 ## Checks
 
