@@ -1,7 +1,7 @@
 {
   "name": "writing-for-alignment",
   "description": "Write briefings and strategy documents that share your thinking with colleagues: a clear story, a position, and claims you can defend.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": { "name": "James Maskell" },
   "license": "MIT",
   "experimental": { "evals": "evals" }
