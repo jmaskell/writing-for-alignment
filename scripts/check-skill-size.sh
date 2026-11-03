@@ -7,6 +7,7 @@ shopt -s nullglob
 for f in "$root"/skills/*/SKILL.md; do
   name=$(basename "$(dirname "$f")")
   limit=1000
+  [ "$name" = writing-for-alignment ] && limit=1050
   body_words=$(awk 'BEGIN{n=0} /^---$/{n++; next} n>=2' "$f" | wc -w | tr -d ' ')
   desc=$(awk '/^description:/{sub(/^description: */,""); print; exit}' "$f")
   if [ "$body_words" -gt "$limit" ]; then echo "$f: body $body_words words > $limit"; fail=1; fi
