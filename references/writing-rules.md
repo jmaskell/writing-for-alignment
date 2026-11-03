@@ -16,7 +16,7 @@ The full list behind the check in the skill body. Each rule serves a reader who 
 - **Name things; never cite internal IDs, codes, file names or document versions,** in the text, in headings or in a sources line. When the reader must know which item you mean, describe it by what it says and who made it: "The finance lead decided in May that refunds go back to the original card", not "per decision R7" or "see refunds-v2". The evidence base keeps the IDs; the reader never needs them.
 - Define every term at first use, in a plain phrase. Use the domain's own terms. A counting rule is method: it goes in the appendix, not the main text.
 - **Each number has one definition,** used consistently. Give the typical per-person or per-item figure as well as the total: "38 hours of overtime a month, about two hours per driver".
-- Prose for reasoning. Items compared on two or more attributes (status per item, options by cost and effect) go in a table. List items are full sentences: capital first, no trailing semicolon. Leave a blank line before every list and table, and check the page: each renders as a list or table, with no `- ` left inside a paragraph.
+- Prose for reasoning, bullets for lists the reader will scan. Items compared on two or more attributes (status per item, options by cost and effect) go in a table. List items are full sentences: capital first, no trailing semicolon. Leave a blank line before every list and table, and check the page: each renders as a list or table, with no `- ` left inside a paragraph.
 - **Cut AI tells:**
     - "not X but Y" contrasts, where a claim is set against one nobody made;
     - staged openers ("Here's the thing:", "The short answer?");

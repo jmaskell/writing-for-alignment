@@ -55,6 +55,6 @@ Check every draft against these; full list: `references/writing-rules.md`.
 - Name things, never IDs. No codes, file names or document versions anywhere in the document, a sources line included; describe an item by what it says and who decided it.
 - Always a position. Options only with a recommendation and its reason.
 - Visuals only where they land a point: one to three at most (step 4).
-- Tabulate, a row per item, anything with a status or compared on two or more attributes. List items are full sentences, capital first, no trailing semicolon. Blank line before every list and table.
+- Tabulate two or more items that each have a status, or that are compared on two or more attributes, a row per item. Capitalised full-sentence items, no semicolons; blank line before lists, tables.
 - Method goes in the appendix. The main text gives the figure and a link; counting rules, sources and how it was reached sit in the appendix (`references/appendix.md`). Don't restate a counting rule in the main text, even in short.
 - Cut AI tells: "not X but Y", staged openers, stacked triads, closing summaries, inflated claims.
