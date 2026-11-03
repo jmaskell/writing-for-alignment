@@ -1,0 +1,9 @@
+# Rota app progress, 30 October
+
+From Sam Okafor, product lead.
+
+The build is in good shape for the November pilot. We have built five things. Shift publishing lets the coordinator put a week of shifts online in one go. The sign-up form stays within the 14-question cap. Email reminders go out 48 hours and 4 hours before each shift. The coordinator has a follow-up list of volunteers who missed a shift, so she can contact them the next day. The weekly report shows sign-ups, attendance and no-shows by day.
+
+Five requirements are being tracked. Email reminders are done, and were finished in October. Shift swaps are in progress. Priya and I agreed the direction on 12 September, which is that volunteers swap in the app, but the details are still open, including whether the coordinator must approve each swap. The target is December. The coordinator override is done: she can change any shift by hand. The no-show report is done, and uses the agreed counting rule that a no-show is a shift where the volunteer neither attends nor swaps 24 hours ahead. The rollout to all teams is not started. It is planned for January, once the November pilot with the Saturday and Tuesday teams has told us whether the reminders work.
+
+We looked at three reminder options, and the analysis in analysis/no-shows.md says it cannot tell us which would cut no-shows most, because no pilot has run yet. Email is free and is already built for every shift, and we expect it to help with the volunteers who simply forget. An SMS reminder would cost 40 pounds a month, which is not in the current budget, and we would expect it to reach people who do not read email during the day, but that is a guess. A phone call from the shift lead costs two hours of lead time a week. We expect it to matter most on Saturdays, where 31% of shifts are no-shows, because the lead already knows most regulars and a personal call is harder to ignore.
